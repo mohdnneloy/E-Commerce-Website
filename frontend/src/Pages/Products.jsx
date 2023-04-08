@@ -7,12 +7,21 @@ import Header from '../Components/Header';
 import './Styles/products.css';
 import { CircularProgress } from '@mui/material';
 import Footer from '../Components/Footer';
+import { NavLink } from 'react-router-dom';
+import ProductDetails from './ProductDetails';
 
 const Products = () => {
 
+    // Localhost URLS ================================
+    const localhostf = "http://localhost:3000";
     const localhostb = "http://localhost:8000";
+
+    // Other ===========================================
     const [pending, setPending] = useState(0);
     const [products, setProducts] = useState([]);
+    const [dproduct, setDproduct] = useState([]);
+    const[check,setCheck] = useState(0);
+
     useEffect(() => {
 
     // Obtaining Product Details from JSON File running on port 8000
@@ -38,15 +47,25 @@ const Products = () => {
             console.log(error);
         })
     }
+
     getProducts();
         
     }, []);
+
+
+    // Props Ready
+    const productDetails = (product) => {
+        setDproduct(product)
+        setCheck(1);
+    }
+    
+    
 
     return (
         
         <>            
             { // If data is not retrieved yet
-                pending == 0 && 
+                pending == 0 && check == 0 &&
                 <>
                     <Header/>
                     <div className="products container">
@@ -56,7 +75,7 @@ const Products = () => {
             }
 
             { // If data is retrieved
-                pending == 1 && 
+                pending == 1 && check == 0 &&
 
                 <>
                     <Header/>
@@ -72,7 +91,7 @@ const Products = () => {
                                         <div class="card-body">
                                             <h5 class="card-title product-title">{product.product_name}</h5>
                                             <p class="card-text product-details">{product.product_detail.substr(0, 70) + "..."}</p>
-                                            <a href="#" class="btn btn-primary">Buy</a>
+                                            <button class="btn btn-primary" onClick={() => productDetails(product)}>Buy</button>
                                         </div>
                                     </div>
                                     </>
@@ -83,6 +102,15 @@ const Products = () => {
 
                     </div>
                     <Footer/>
+                </>
+            }
+
+            { // Product Details View
+
+                pending == 1 && check == 1 &&
+                <>
+                    <Header/>
+                    <ProductDetails product = {dproduct}/>
                 </>
             }
         

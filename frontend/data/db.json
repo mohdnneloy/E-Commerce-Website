@@ -606,6 +606,11 @@
       "customer_phone_number": "01512104178",
       "customer_password": "9a1996efc97181f0aee18321aa3b3b12",
       "id": 1
+    },
+    {
+      "customer_phone_number": "01752415896",
+      "customer_password": "5d41402abc4b2a76b9719d911017c592",
+      "id": 2
     }
   ]
 }

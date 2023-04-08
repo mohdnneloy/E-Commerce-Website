@@ -19,3 +19,23 @@
 .loader{
     margin: 25% 0% 0% 45%;
 }
+
+.card a {
+    text-decoration: none;
+    padding: 2% 5%;
+    color: white;
+    background-color: orange;
+    border: solid 2px orange;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.card a:hover{
+    text-decoration: none;
+    padding: 2% 5%;
+    color: orange;
+    background-color: white;
+    border: solid 2px orange;
+    border-radius: 5px;
+    transition: 0.3s;
+}

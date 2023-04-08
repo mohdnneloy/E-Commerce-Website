@@ -1,0 +1,31 @@
+.box2{
+    width: 50%;
+}
+
+.left2{
+    padding: 10% 20%;
+}
+
+.left2 img{
+    width: 400px;
+}
+
+.right2{
+    padding: 10% 22% 10% 0%;
+    text-align: justify;
+}
+
+.box2 h5{
+    font-size: 1.75em;
+}
+
+.box2 p{
+    font-size: 1.2em;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.box2 button{
+    padding: 10px 35px;
+}
+
