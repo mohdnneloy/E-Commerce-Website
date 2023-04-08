@@ -1,0 +1,21 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    margin: 1%;
+}
+
+.product-image{
+    height: 300px;
+}
+
+.product-title{
+    font-weight: 700;
+}
+
+.loader{
+    margin: 25% 0% 0% 45%;
+}

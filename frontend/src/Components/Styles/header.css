@@ -1,0 +1,25 @@
+.home-header{
+    background-color: rgb(71, 71, 71);
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.navbar-nav a{
+    color: white;
+}
+
+.navbar-nav a:hover{
+    color: rgb(255, 255, 149);
+}
+
+.navbar-nav a:active{
+    color: rgb(255, 255, 255);
+}
+.navbar-brand{
+    color:rgb(255, 255, 255);
+}
+
+.navbar-brand:hover{
+    color:rgb(255, 255, 149);
+}

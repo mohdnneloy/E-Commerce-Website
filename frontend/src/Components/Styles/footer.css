@@ -1,0 +1,18 @@
+.footer-div{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 9%;
+}
+
+.footer-div a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-div a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 149);
+}
+
