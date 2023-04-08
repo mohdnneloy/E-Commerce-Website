@@ -1,9 +1,4 @@
 import React from 'react'
-import { useEffect } from 'react'
-import {useLocation} from 'react-router-dom'
-
-// Component ==================================
-import Header from '../Components/Header'
 
 // Styles ====================================
 import './Styles/product_details.css'

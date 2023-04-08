@@ -13,8 +13,8 @@ import ProductDetails from './ProductDetails';
 const Products = () => {
 
     // Localhost URLS ================================
-    const localhostf = "http://localhost:3000";
-    const localhostb = "http://localhost:8000";
+    const localhostf = "https://e-commerce-website-delta-eight.vercel.app";
+    const localhostb = "https://vercel.com/mohdnneloy/e-commerce-website";
 
     // Other ===========================================
     const [pending, setPending] = useState(0);

@@ -6,7 +6,7 @@ import './Styles/footer.css'
 
 const Footer = () => {
 
-  var localhost = "http://localhost:3000/";
+  var localhost = "https://e-commerce-website-delta-eight.vercel.app";
   return (
     <>
         <footer>

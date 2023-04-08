@@ -18,8 +18,8 @@ const Login = () => {
   var customers = [];
 
   // Base URLS ====================================
-  const localhostb = "http://localhost:8000";
-  const localhostf = "http://localhost:3000";
+  const localhostb = "https://vercel.com/mohdnneloy/e-commerce-website";
+  const localhostf = "https://e-commerce-website-delta-eight.vercel.app";
 
   // Login Function On Submit
   const login = (event) =>{

@@ -13,8 +13,8 @@ const Register = () => {
 
   const [phone_number,setPhoneNumber] = useState();
   const [password,setPassword] = useState();
-  const localhostb = "http://localhost:8000";
-  const localhostf = "http://localhost:3000";
+  const localhostb = "https://vercel.com/mohdnneloy/e-commerce-website";
+  const localhostf = "https://e-commerce-website-delta-eight.vercel.app";
 
   const register = (event) =>{
 
