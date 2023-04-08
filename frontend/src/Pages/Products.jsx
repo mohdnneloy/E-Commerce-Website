@@ -14,7 +14,7 @@ const Products = () => {
 
     // Localhost URLS ================================
     const localhostf = "https://e-commerce-website-delta-eight.vercel.app";
-    const localhostb = "https://ecommerce-website-json.onrender.com/";
+    const localhostb = "https://ecommerce-website-json.onrender.com";
 
     // Other ===========================================
     const [pending, setPending] = useState(0);

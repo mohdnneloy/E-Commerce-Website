@@ -13,7 +13,7 @@ const Register = () => {
 
   const [phone_number,setPhoneNumber] = useState();
   const [password,setPassword] = useState();
-  const localhostb = "https://ecommerce-website-json.onrender.com/";
+  const localhostb = "https://ecommerce-website-json.onrender.com";
   const localhostf = "https://e-commerce-website-delta-eight.vercel.app";
 
   const register = (event) =>{
